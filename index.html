@@ -1,0 +1,447 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="../jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="../jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="../jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="estilos.css" />
+
+<!-- Refferencias de JqueryMobile -->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+
+<!-- Referencias W3school para los div responsive -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body class="w3-content" style="max-width:500px">
+</head> 
+<body> 
+<!-- div y id para crear un listview para el menu principal -->
+<div data-role="page" id="page" data-theme="a" data-dividertheme="a">
+	<div data-role="header">
+		<h1>Menu Principal</h1>
+
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview" data-inset="true" class="ui-icon-bars">
+			<li><a href="#page2">1.1 Parrafos</a></li>
+            <li><a href="#">Temas</a></li>
+            <li><a href="#page4">1.2 Popups</a></li>
+			<li><a href="#page5">1.3 Tablas</a></li>
+            <li><a href="#page6">1.4 Lista de nvbar</a></li>
+			<li><a href="#page8">1.5 Popups</a></li>
+            <li><a href="#page10">1.6 Botones </a></li>
+            <li><a href="#page11">1.7 Listas colapsable </a></li>
+        <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#" data-icon="grid">Soporte</a></li>
+                <li><a href="#" data-icon="star" class="ui-btn-active">Contacto</a></li>
+                <li><a href="#" data-icon="star">Acerca de</a></li>
+		 </ul>
+        </div><!-- /navbar -->
+		</div><!-- /footer -->          
+		</ul>		
+	</div>
+    
+    
+  <div class="main">
+		<div class="slides">
+			<img src="imagenes/Slider2.jpg" alt="">
+		</div>
+	</div>
+  
+   
+	<div data-role="footer" data-position="fixed">
+		<h4>www.huawei.com.mx</h4>
+	</div>
+</div>
+
+<!-- div sobre el id de la pagina 2 a mostrar -->
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1>Parrafos</h1>
+	</div>
+	<div data-role="content">	
+	<center>  
+<div data-role="navbar" data-direction="center">
+<center>  
+    <ul>
+        <li><a href="#page" class="ui-btn-active">Inicio</a></li>
+        <li><a href="#page11" data-position="fixed">Listas colapsable</a></li>
+        <li><a href="#page2">Acerca de Huawei</a></li>
+        <p>Parrafos</p>
+
+    </ul>
+</div><!-- /navbar -->
+</center>
+
+<h3><i class="fa fa-nav"></i><a href="#"> 1. Huawei Technologies</h3></a>
+    <p align="justify">Huawei Technologies Co., Ltd. Es una empresa privada multinacional china de alta tecnología especializada en investigación y desarrollo (I+D), producción electrónica y marketing de equipamiento de comunicaciones. Además, provee soluciones de redes      personalizadas para operadores de la industria de telecomunicaciones.</p>	
+    
+<h3><i class="fa fa-nav"></i><a href="#"> 2. Centros de investigación</h3></a>
+    <p align="justify">Además de sus centros de investigación y desarrollo en Shenzhen, Shanghái, Pekín, Nankín, Xi’an, Chengdu y Wuhan en China, Huawei Technologies Co., Ltd. cuenta también con centros de I+D en: Suecia, Estados Unidos, Ecuador, Irlanda, Colombia, México, India y Rusia.</p>	
+    
+<h3><i class="fa fa-nav"></i><a href="#"> 3. Historia</h3></a>
+    <p align="justify">Huawei fue fundada por Ren Zhengfei en 1987,4​ como distribuidor de productos PBX importados, con un capital inicial registrado de 24000 RMB. En 1989, comenzó el desarrollo y posterior venta de su propia PBX. Después de acumular conocimientos y recursos en el negocio de las centrales telefónicas, Huawei alcanzó su primer avance en la cadena principal del mercado de telecomunicaciones en 1993.</p>	
+
+<h3><i class="fa fa-nav"></i><a href="#"> 4. Centros de investigación</h3></a>
+    <p align="justify">Huawei provee redes de telefonía fijas y móviles, comunicaciones de datos, redes ópticas, software & servicios y terminales telefónicos, incluyendo módems.</p>	
+        	
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>www.huawei.com.mx</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+		<h1>Página 3</h1>
+	</div>
+	<div data-role="content">	
+		Contenido		
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+
+
+<div data-role="page" id="page5">
+	<div data-role="header">
+		<h1>Tablas</h1>
+	</div>
+    <center>  
+<div data-role="navbar" data-direction="center">
+<center>  
+    <ul>
+        <li><a href="#page" class="ui-btn-active">Inicio</a></li>
+        <li><a href="#page2" data-position="fixed">Parrafos</a></li>
+        <li><a href="#page2">Acerca de Huawei</a></li>
+        <p>Tablass</p>
+
+    </ul>
+</div><!-- /navbar -->
+</center>
+<!-- Creación de un parrafo para el contenido de la pagina -->
+
+<h3><i class="fa fa-bars"></i><a href="#page"> 1. Huawei Technologies</h3></a>
+    <p align="justify">En la siguiente tabla se desscriben los modelos de la marca Huawei de los ultimos años.</p>
+  <!-- Se crea las div y las etiquetas table para darle formato a la table y se crean
+  el contenido para cada item en la tabla -->
+
+	<div data-role="content">	
+	<table data-role="table" id="table-column-toggle" data-mode="columntoggle" class="ui-responsive table-stroke">
+     <thead>
+       <tr>
+         <th data-priority="2">Numero</th>
+         <th>Telefonia Movil</th>
+         <th data-priority="3">Porcentaje</th>
+         <th data-priority="1"><abbr title="General">Porcentaje</abbr></th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <th>1</th>
+         <td><a href="https://www.telcel.com/personas/equipos/telefonos-y-smartphones/huawei/vog-l04" data-rel="external">Huawei P30 Pro</a></td>
+         <td>2019</td>
+         <td>100%</td>
+         <td>74</td>
+       </tr>
+       <tr>
+         <th>2</th>
+<!-- Se agrega el direccionamiento a una pagina de internet mediante un link desde la tabla -->
+         <td><a href="https://www.telcel.com/personas/equipos/telefonos-y-smartphones/huawei/mrd-lx3.html?version=cafe-32GB" data-rel="external">Huawei Y6 2019</a></td>
+         <td>2019</td>
+         <td>90%</td>
+         <td>64</td>
+       </tr>
+       <tr>
+         <th>3</th>
+         <td><a href="https://consumer.huawei.com/mx/phones/p-smart-2019/specs/" data-rel="external">Huawei P Smart</a></td>
+         <td>2019</td>
+         <td>90%</td>
+         <td>87</td>
+       </tr>
+       <tr>
+         <th>4</th>
+         <td><a href="https://consumer.huawei.com/mx/phones/p10-selfie/" data-rel="external">Huawei P10</a></td>
+         <td>2017</td>
+         <td>96%</td>
+         <td>87</td>
+       </tr>
+       <tr>
+         <th>5</th>
+         <td><a href="https://consumer.huawei.com/mx/phones/p20-pro/" data-rel="external">Huawei P20 Pro</a></td>
+         <td>2018</td>
+         <td>94%</td>
+         <td>87</td>
+       </tr>
+       <tr>
+         <th>6</th>
+         <td><a href="https://consumer.huawei.com/mx/phones/p20-lite/" data-rel="external">Huawei P20 Lite</a></td>
+         <td>2017</td>
+         <td>92%</td>
+         <td>74</td>
+       </tr>
+       <tr>
+         <th>7</th>
+         <td><a href="https://consumer.huawei.com/mx/phones/mate20/" data-rel="external">Huawei Mate 20</a></td>
+         <td>2018</td>
+         <td>91%</td>
+         <td>122</td>
+       </tr>
+       <tr>
+         <th>8</th>
+         <td><a href="https://www.telcel.com/personas/equipos/telefonos-y-smartphones/huawei/lya-l09?version=negro-128GB" data-rel="external">Huawei Mate 20 Pro</a></td>
+         <td>2019</td>
+         <td>90%</td>
+         <td>72</td>
+       </tr>
+       <tr>
+         <th>9</th>
+         <td><a href="https://www.movilzona.es/huawei/y5-2019/" data-rel="external">Huawei y5 2019</a></td>
+         <td>2019</td>
+         <td>89%</td>
+         <td>85</td>
+       </tr>
+       <tr>
+         <th>10</th>
+         <td class="title"><a href="https://consumer.huawei.com/mx/phones/y7-2019/specs/" data-rel="external">Huawei Y7 2019</a></td>
+         <td>2019</td>
+         <td>84%</td>
+         <td>78</td>
+       </tr>
+     </tbody>
+   </table>
+        
+        
+        		
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page6">
+	<div data-role="header">
+		<h1>Lista nvar</h1>
+	</div>
+    <center>  
+<div data-role="navbar" data-direction="center">
+<center>  
+    <ul>
+        <li><a href="#page" class="ui-btn-active">Inicio</a></li>
+        <li><a href="#page2" data-position="fixed">Parrafos</a></li>
+        <li><a href="#page2">Acerca de Huawei</a></li>
+        <p>Listas navbar</p>
+
+    </ul>
+</div><!-- /navbar -->
+</center>
+
+<h3><i class="fa fa-bars"></i><a href="#page"> 1. Huawei Technologies</h3></a>
+    <p align="justify"Huawei Technologies creció un 45% y alcanzó un volumen de contratos de 16 mil millones de dólares en 2007. Huawei finaliza el despliegue de una red submarina para MedNautilus y antes del plazo estimado. Catania, Italia 23 de mayo de 2016.</p>
+	<div data-role="navbar">
+    <ul>
+        <li><a href="#" class="ui-btn-active">Nvar</a></li>
+        <li><a href="#">Item 1</a></li>
+        <li><a href="#">Item 2</a></li>
+        <li><a href="#">Item 3</a></li>
+        <li><a href="page4">Popups</a></li>
+        <li><a href="page5">Tablas</a></li>
+        <li><a href="#page10">Botones</a></li>
+        <li><a href="#page11">Listas colapsable</a></li>
+      
+    </ul>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>www.huawei.com.mx</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page8">
+	<div data-role="header">
+		<h1>Página 8</h1>
+	</div>
+	<div data-role="content">	
+		Contenido		
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page10">
+	<div data-role="header">
+		<h1>Botones</h1>
+	</div>
+	<div data-role="content">	
+    <center>  
+<div data-role="navbar" data-direction="center">
+<center>  
+    <ul>
+<!-- Se crea el menu secundario el cual permitira al usuario navegar de forma facil -->
+
+        <li><a href="#page" class="ui-btn-active">Inicio</a></li>
+        <li><a href="#page2" data-position="fixed">Parrafos</a></li>
+        <li><a href="#page2">Acerca de Huawei</a></li>
+        <p>Tecnología Móvil</p>
+
+    </ul>
+</div><!-- /navbar -->
+</center>
+
+<h3><i class="fa fa-bars"></i><a href="#page"> 1. Huawei Technologies</h3></a>
+    <p align="justify">Huawei fue premiada en el 2007 con el Premio InfoVision del Consorcio Internacional de Ingeniería por su serie de productos SmartAX MA5600T y soluciones OptiX OSN. Este es el tercer año consecutivo que ganó el Premio InfoVision; y es el único proveedor que gana dos premios en diferentes categorías: el producto serie SmartAX MA5600T en la categoría de Tecnologías de Red de Acceso en la categoría "Metro Network Technologies and Services". Berlín, Alemania, 9 de octubre de 2007..</p>
+    <!-- Se genera el a href para el redureccionamiento de la pagina y se agrega el class=
+    "ui-btn" para darle formato de boton-->
+
+		<a href="#page" class="ui-btn">Inicio</a>
+   		<a href="#page2" class="ui-btn">Parrafos</a>
+		<a href="#page5" class="ui-btn">Tablas</a>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page11">
+	<div data-role="header">
+		<h1>Página 11</h1>
+	</div>
+	<div data-role="content">		
+	</div>
+	<div data-role="content" data-role="Popup">			
+    <div class="w3-container w3-card w3-indigo">
+  <h1>Listas colapsable </h1>
+</div>
+<ul class="w3-ul">
+  <li>
+  <!-- H3 y i class para el icono de la pagina principal -->
+<center>  
+<div data-role="navbar" data-direction="center">
+<center>  
+    <ul>
+        <li><a href="#page" class="ui-btn-active">Inicio</a></li>
+        <li><a href="#page2" data-position="fixed">Parrafos</a></li>
+        <li><a href="#page2">Acerca de Huawei</a></li>
+        <p>Tecnología Móvil</p>
+
+    </ul>
+</div><!-- /navbar -->
+</center>
+
+<h3><i class="fa fa-bars"></i><a href="#page"> 1. Huawei Technologies</h3></a>
+    <p align="justify">Huawei Technologies Co., Ltd. Es una empresa privada multinacional china de alta tecnología especializada en investigación y desarrollo (I+D), producción electrónica y marketing de equipamiento de comunicaciones. Además, provee soluciones de redes      personalizadas para operadores de la industria de telecomunicaciones.</p>
+    <!-- Se crean las listas collapsible con el data-role el data-theme para darle formato a los ul -->
+
+          <ul data-role="listview">
+  <li data-role="collapsible" data-iconpos="right" data-inset="false">
+    <h2>Huawei</h2>
+    <ul data-role="listview" data-theme="b">
+      <li><a href="#">Huawei Y8 2019</a></li>
+      <li><a href="#">Huawei P30 pro 2019</a></li>
+      <li><a href="#">Huawei P30</a></li>
+    </ul>
+  </li>
+  <li data-role="collapsible" data-iconpos="right" data-inset="false">
+    <h2>Huawei Technologies</h2>
+    <ul data-role="listview" data-theme="b">
+      <li><a href="#">Huawei P Smart 2019</a></li>
+      <li><a href="#">Huawei P10</a></li>
+      <li><a href="#">Honor 8x</a></li>
+    </ul>
+  </li>
+<div data-role="footer" data-position="fixed">
+		<h4>Visita la pagina oficial de Huawei.com.mx</h4>
+	</div>
+
+<!-- div pagina 4 para la cración del popip -->
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<h1>Popup Basico</h1>
+	</div>
+	<div data-role="content" data-role="Popup">			
+    <div class="w3-container w3-card w3-indigo">
+  <h1>Popup Basico</h1>
+</div>
+<ul class="w3-ul">
+  <li>
+  <!-- H3 y i class para el icono de la pagina principal -->
+    <h3><i class="fa fa-bars"></i><a href="#page"> 1. Huawei Technologies</h3></a>
+    <p align="justify">Huawei Technologies Co., Ltd. Es una empresa privada multinacional china    de alta tecnología especializada en investigación y desarrollo (I+D), producción electrónica    y marketing de equipamiento de comunicaciones. Además, provee soluciones de redes      personalizadas para operadores de la industria de telecomunicaciones.</p>
+<!-- div para crear una funcion  y una etiqueta p para mostar el contenido -->
+<div class="popup" onclick="myFunction()">
+    <p>1.1 Telefonia Móvil Huawei Technologies!</p>
+  		<span class="popuptext" id="myPopup">Huawei Technologies </span>
+	</div>
+    <!-- Función Js para mostrar ventana emergente -->
+	<script>
+		//Cuando el usuario de clic en la div, se abrira el Popup
+		function myFunction() {
+	    var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+	}
+	</script>
+  </li>
+  <li>
+    <h3>2. Huawei [Popup Tooltip]</h3>
+    <p>Empresa privada propiedad de los empleados.</p>
+	<p">Mueva el mouse sobre el texto 2.1 Empresa de vanguardia para mostrar el Popup Tooltip:</p>
+<!-- Inncio para crear un nuevo div para crear el Popup Lightbox-->
+<div class="tooltip">2.1 Empresa de vanguardia
+	  <span class="tooltiptext">Telefonía Móvil usando Popup Tooltip </span>
+</div>
+<p align="justify">Huawei es un proveedor líder en el mercado mundial de infraestructuras de tecnologías de la información y la comunicación (TIC) y dispositivos inteligentes. Gracias a las soluciones integradas en los cuatro dominios claves (redes de telecomunicaciones, tecnología de la información, dispositivos inteligentes y servicios en la nube.</p>
+  </li>
+  <li>
+  <!-- Creamos 3 a href para almacenar los popup Lightbox con un data-position para que
+  cuando presionemos clic se muestre el Lightbox y le pasamos la ruta donde tenemos la imagenes
+  almacenadas-->
+
+    <h3>3. Industria [Popup Lightbox] </h3>
+    <p>Telefonía Móvil de vanguardia del año 2019.</p>
+    <a href="#popupHuawei" data-rel="popup" data-position-to="window" data-transition="fade">
+   		<img class="popimgHuawei" src="imagenes/full/1.jpg" alt="Huawei" style="width:30%"></a>
+	<a href="#popupNokia" data-rel="popup" data-position-to="window" data-transition="fade">
+    	<img class="popimgNokia" src="imagenes/full/2.jpg" alt="Nokia" style="width:30%"></a>
+	<a href="#popupSamsung" data-rel="popup" data-position-to="window" data-transition="fade">
+    	<img class="popimgSamsung" src="imagenes/full/3.jpg" alt="Samsung" style="width:30%"></a>
+  <!-- Creamos un div para cada imp de los Popup con el role de popup para que a la hora de dar clic en la imagen muestre una ventana con el contenido de la imagen y pasando el src de la imagen y tamaño para que se adáptate al tamaño de la página-->
+<div data-role="popup" id="popupHuawei" data-overlay-theme="b" data-theme="b" data-corners="false">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+		<img class="popimgHuawei" src="imagenes/full/1.jpg" style="max-height:512px;" alt="Huawei">
+</div>
+<div data-role="popup" id="popupNokia" data-overlay-theme="b" data-theme="b" data-corners="false">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+		<img class="popimgNokia" src="imagenes/full/2.jpg" style="max-height:512px;" alt="Nokia">
+</div>
+<div data-role="popup" id="popupSamsung" data-overlay-theme="b" data-theme="b" data-corners="false">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+		<img class="popimgSamsung" src="imagenes/full/3.jpg" style="max-height:512px;" alt="Samsung">
+</div>
+  </li>
+</ul>
+
+<div class="w3-container w3-indigo w3-xlarge">
+  <h5 align="center">https://consumer.huawei.com/mx/</h5>
+</div>
+
+<div>    
+</div>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Visita la pagina oficial de Huawei.com.mx</h4>
+	</div>
+</div>
+
+</body>
+</html>
